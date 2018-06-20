@@ -32,7 +32,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - ATMs
   branches/:
     get:
       summary: Get Branches
@@ -44,7 +44,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Branches
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

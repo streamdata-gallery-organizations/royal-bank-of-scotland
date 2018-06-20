@@ -4,7 +4,7 @@ x-collection-name: Royal Bank of Scotland
 x-complete: 1
 info:
   title: Royal Bank of Scotland
-  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapisio-apis-for-the-royal-bank-of-scotland
+  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-for-the-royal-bank-of-scotland-
   termsOfService: https://www.openbanking.org.uk/open-licence/
   contact:
     name: API Evangelist
@@ -31,7 +31,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - ATMs
   branches/:
     get:
       summary: Get Branches
@@ -43,7 +43,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Branches
   personal-current-accounts/:
     get:
       summary: Get Current Personal Accounts
@@ -55,7 +55,9 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Current
+      - Personal
+      - Accounts
   business-current-accounts/:
     get:
       summary: Get Current Business Accounts
@@ -67,7 +69,9 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Current
+      - Business
+      - Accounts
   unsecured-sme-loans/:
     get:
       summary: Get Unsecured SME Loans
@@ -79,7 +83,9 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Unsecured
+      - SME
+      - Loans
   commercial-credit-cards/:
     get:
       summary: Get Commercial Credit Cards
@@ -91,5 +97,7 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Commercial
+      - Credit
+      - Cards
 ---

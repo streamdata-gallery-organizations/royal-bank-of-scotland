@@ -14,8 +14,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "52820"
 tags: Royal Bank of Scotland
-created: "2018-05-22"
-modified: "2018-05-22"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/royal-bank-of-scotland/master/_listings/royal-bank-of-scotland/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,7 +26,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/royal-bank-of-scotland.png
   humanURL: https://www.rbs.com
   baseURL: https://openapi.rbs.co.uk/open-banking/v2.1//atms/
-  tags: ~
+  tags: ATMs
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/royal-bank-of-scotland/master/_listings/royal-bank-of-scotland/atms-get-postman.md
@@ -39,7 +39,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/royal-bank-of-scotland.png
   humanURL: https://www.rbs.com
   baseURL: https://openapi.rbs.co.uk/open-banking/v2.1//branches/
-  tags: ~
+  tags: Branches
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/royal-bank-of-scotland/master/_listings/royal-bank-of-scotland/branches-get-postman.md
@@ -52,7 +52,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/royal-bank-of-scotland.png
   humanURL: https://www.rbs.com
   baseURL: https://openapi.rbs.co.uk/open-banking/v2.1//personal-current-accounts/
-  tags: ~
+  tags: Current,Personal,Accounts
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/royal-bank-of-scotland/master/_listings/royal-bank-of-scotland/personalcurrentaccounts-get-postman.md
@@ -65,7 +65,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/royal-bank-of-scotland.png
   humanURL: https://www.rbs.com
   baseURL: https://openapi.rbs.co.uk/open-banking/v2.1//business-current-accounts/
-  tags: ~
+  tags: Current,Business,Accounts
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/royal-bank-of-scotland/master/_listings/royal-bank-of-scotland/businesscurrentaccounts-get-postman.md
@@ -78,7 +78,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/royal-bank-of-scotland.png
   humanURL: https://www.rbs.com
   baseURL: https://openapi.rbs.co.uk/open-banking/v2.1//unsecured-sme-loans/
-  tags: ~
+  tags: Unsecured,SME,Loans
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/royal-bank-of-scotland/master/_listings/royal-bank-of-scotland/unsecuredsmeloans-get-postman.md
@@ -91,7 +91,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/royal-bank-of-scotland.png
   humanURL: https://www.rbs.com
   baseURL: https://openapi.rbs.co.uk/open-banking/v2.1//commercial-credit-cards/
-  tags: ~
+  tags: Commercial,Credit,Cards
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/royal-bank-of-scotland/master/_listings/royal-bank-of-scotland/commercialcreditcards-get-postman.md
