@@ -5,7 +5,7 @@ description: This is a repository of royal bank of scotland APIs, self-contained
   operations.
 image: http://template.streamdata.gallery/assets/royal-bank-of-scotland.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://royal-bank-of-scotland.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
